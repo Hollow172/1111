@@ -1,0 +1,30 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#00EF00;
+}
+.Menu{
+	display:grid;
+	background-color:green;
+	width:100px;
+	margin:10px;
+}
+.zam{
+	border:2px outset yellow;
+}
+.zam:hover{
+	border:2px inset red;
+}
+.zam:hover .menu2{
+	display:block;
+}
+.menu2{
+	display:none;
+	position:absolute;
+	left:50px;
+	top:78px;
+	background-color:yellow;
+}
+

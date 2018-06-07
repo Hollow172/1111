@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+}
+.ulozenie{
+	display:grid;
+	height:100%;
+	grid-template-columns:4fr 2fr;
+	grid-template-rows:15% 80% 5%;
+}
+
+.logo{
+	text-align:center;
+	display:grid;
+	background-color:#cccccc;
+	grid-column:1/3;
+}
+
+.link{
+	text-align:center;
+	display:grid;
+	background-color:#b3b3b3;
+}
+
+.tresc{
+	text-align:center;
+	display:grid;
+	background-color:#e6e6e6;
+}
+
+.stopka{
+	text-align:center;
+	display:grid;
+	grid-column:1/3;
+	background-color:#cccccc;
+}

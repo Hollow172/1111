@@ -1,0 +1,23 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.ulozenie{
+	display:grid;
+	height:100%;
+	grid-template-rows:3fr 1fr 10fr 1fr;
+	grid-template-columns:1fr;
+	text-align:center;
+}
+#logo{
+	background-color:blue;
+}
+#link{
+	background-color:#33ccff;
+}
+#tresc{
+	background-color:#3399ff;
+}
+#stopka{
+	background-color:blue;
+}
